@@ -1,0 +1,47 @@
+{
+  "add_to_code_source": {
+    "local_src_dir": "likwid-3.0"
+  }, 
+  "build": "yes", 
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "a4ac1a4d41682e22", 
+    "06922fb5dbed7297", 
+    "42670bc8a4e7683a"
+  ], 
+  "cm_dependencies": {
+    "host_os": [
+      "41f3fd82b4b0fa51"
+    ], 
+    "target_os": [
+      "41f3fd82b4b0fa51"
+    ], 
+    "target_processor": [
+      "439c911aa75c193f", 
+      "135bf204715b651c"
+    ]
+  }, 
+  "cm_description": "", 
+  "cm_display_as_alias": "Likwid 3.0.0 with FGG fix for laptop Sandybridge", 
+  "cm_files": [
+    "likwid-3.0.0.tar.gz", 
+    "patch1"
+  ], 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-06-15T17:16:13.632000", 
+      "cm_module_uid": "0247b19de472d7d0", 
+      "cm_note": "", 
+      "cm_user_uoa": "74c2480dcec9e85d"
+    }
+  ], 
+  "install_script": "install", 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

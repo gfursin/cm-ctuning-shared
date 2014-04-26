@@ -1,0 +1,159 @@
+Intel(R) VTune(TM) Amplifier XE 2011 Update 5 (build 186533) Command Line Tool
+Copyright (C) 2009-2011 Intel Corporation. All rights reserved.
+
+-c, -collect=<string>         Choose analysis type.
+
+
+ Perform collection.
+ 
+
+
+Modifiers
+ 
+-allow-multiple-runs | -no-allow-multiple-runs (default)
+                              Enable multiple runs to achieve more precise
+                              results for hardware event-based collections.
+                              When disabled, the collector multiplexes events
+                              running a single collection, which lowers result 
+                              precision.
+-analyze-system | -no-analyze-system (default)
+                              Enable analyzing all processes running on the
+                              system. When disabled, only the target process is
+                              analyzed. This option is applicable to hardware
+                              event-based analysis types only.
+-app-working-dir=<string>     Specify the working directory to be used when
+                              profiling a program.
+-auto-finalize (default) | -no-auto-finalize
+                              Turn on/off automatic result finalization after
+                              data collection/import. --no-auto-finalize option
+                              also turns off the summary report (--no-summary).
+-call-stack-mode=all | user-only | user-plus-one (user-only)
+                              Choose how to show system functions in the stack.
+-cpu-mask=<string>            Specify CPU(s) to collect data on (for example:
+                              2-8,10,12-14). This option is applicable to
+                              hardware event-based analysis types only.
+-data-limit=<integer> (100)   Limit the amount of raw data to be collected.
+                              This option is not applicable to hardware
+                              event-based analysis types.
+-discard-raw-data | -no-discard-raw-data (default)
+                              Discard raw collector data from the result upon
+                              finalization.
+-duration=<string>            Specify the duration for collection (in seconds).
+                              Required for system-wide collection. Can also be 
+                              'unlimited'.
+-fast-frames-threshold=<double> (100)
+                              Specify a threshold to separate Good and Fast
+                              frames. Frame rates higher than this threshold
+                              are marked as Fast. This threshold needs to be
+                              larger than the Slow frames threshold.
+-follow-child (default) | -no-follow-child
+                              Collect data on processes launched by the target 
+                              process. Recommended for applications launched by
+                              a script.
+-k, -knob=<string>            Set knob value for selected analysis type as
+                              -knob knobName=knobValue.
+-mrte-mode=auto | native | mixed | managed (auto)
+                              Select a profilig mode. The Native mode does not 
+                              attribute data to managed source. The Mixed mode 
+                              attributes data to managed source where
+                              appropriate. The Managed mode tries to limit
+                              attribution to managed source when available.
+-r, -result-dir=<string> (r@@@{at})
+                              Specify result directory path.
+-resume-after=<unsigned integer>
+                              Specify time (in milliseconds) to delay data
+                              collection after the application starts.
+-return-app-exitcode | -no-return-app-exitcode
+                              Return the target exit code instead of the
+                              command-line interface exit code.
+-search-dir=<string>          <all | bin | src | sym[:<p | r>]>=<directory>.
+                              <directory> is the name of the search directory
+                              for binaries (bin), sources (src), symbols (sym),
+                              or all these file types (all). Use ':r' to
+                              perform a recursive search of all subdirectories.
+                              Use ':p' to indicate highest priority search
+                              directories (directories that should be searched 
+                              prior to others, including environment paths and 
+                              absolute paths). You can use these options
+                              together as ':rp'.
+-slow-frames-threshold=<double> (40)
+                              Specify a threshold to separate Slow and Good
+                              frames. Frame rates lower than this threshold are
+                              marked as Slow. This threshold needs to be
+                              smaller than the Fast frames threshold.
+-start-paused                 Start data collection paused.
+-strategy=<string>            Specify how exactly child processes should be
+                              analyzed. This option is not applicable to
+                              hardware event-based analysis types.
+-summary (default) | -no-summary
+                              Turn on/off showing the summary report after data
+                              collection/import.
+-target-duration-type=veryshort | short | medium | long (short)
+                              Estimate the application duration time. This
+                              value affects the size of collected data. For
+                              long running targets, sampling interval is
+                              increased to reduce the result size. For hardware
+                              event-based analysis types, the duration estimate
+                              affects a multiplier applied to the configured
+                              Sample after value.
+-target-pid=<unsigned integer>
+                              Attach collection to a running process specified 
+                              by process ID.
+-target-process=<string>      Attach collection to a running process specified 
+                              by process name.
+
+
+
+Global Options
+ 
+-q, -quiet                    Suppress non-essential messages
+-user-data-dir=<string>       Specify the base directory for result paths
+                              provided by --result-dir option. By default, the 
+                              current working directory is used.
+-v, -verbose                  Print additional information
+
+
+
+Examples
+ 
+Perform the hotspots collection on the given target
+ 
+    amplxe-cl -collect hotspots a.out
+ 
+ The default naming template for result directories is r@@@{at}, where:
+ @@@ is an increasing numeric sequence automatically assigned by amplxe-cl;
+ {at} is an abbreviation of the analysis type.
+ 
+ Collect the results into the 'r001cc' result directory
+ 
+    amplxe-cl -collect concurrency -r r001cc a.out
+ 
+ 
+ Use '-help collect <analysis type>' for more information about each analysis type. 
+
+Available analysis types
+ 
+    atom_general-exploration        Intel(R) Atom(TM) Processor - General Exploration
+    concurrency                     Concurrency
+    core2_bandwidth                 Intel(R) Core(TM) 2 processor family - Bandwidth
+    core2_bandwidth-breakdown       Intel(R) Core(TM) 2 processor family - Bandwidth Breakdown
+    core2_cycles-uops               Intel(R) Core(TM) 2 processor family - Cycles and uOps
+    core2_general-exploration       Intel(R) Core(TM) 2 processor family - General Exploration
+    core2_memory-access             Intel(R) Core(TM) 2 processor family - Memory Access
+    hotspots                        Hotspots
+    lightweight-hotspots            Lightweight Hotspots
+    locksandwaits                   Locks and Waits
+    nehalem_cycles-uops             Intel(R) Microarchitecture Code Name Nehalem - Cycles and uOps
+    nehalem_frontend-investigation  Intel(R) Microarchitecture Code Name Nehalem - Front End Investigation
+    nehalem_general-exploration     Intel(R) Microarchitecture Code Name Nehalem - General Exploration
+    nehalem_memory-access           Intel(R) Microarchitecture Code Name Nehalem - Memory Access
+    snb_access-contention           Intel(R) Microarchitecture Code Name Sandy Bridge - Access Contention
+    snb_bandwidth                   Intel(R) Microarchitecture Code Name Sandy Bridge - Bandwidth
+    snb_branch-analysis             Intel(R) Microarchitecture Code Name Sandy Bridge - Branch Analysis
+    snb_client                      Intel(R) Microarchitecture Code Name Sandy Bridge - Client Analysis
+    snb_core-port-saturation        Intel(R) Microarchitecture Code Name Sandy Bridge - Core Port Saturation
+    snb_cycles-uops                 Intel(R) Microarchitecture Code Name Sandy Bridge - Cycles and uOps
+    snb_general-exploration         Intel(R) Microarchitecture Code Name Sandy Bridge - General Exploration
+    snb_loop-analysis               Intel(R) Microarchitecture Code Name Sandy Bridge - Loop Analysis
+    snb_memory-access               Intel(R) Microarchitecture Code Name Sandy Bridge - Memory Access
+    snb_port-saturation             Intel(R) Microarchitecture Code Name Sandy Bridge - Port Saturation

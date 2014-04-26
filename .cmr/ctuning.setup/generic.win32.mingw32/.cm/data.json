@@ -1,0 +1,41 @@
+{
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_archive": "", 
+  "cm_choices": {
+    "cm_host_os_uoa": [
+      "4e3ac1901f4b25bc"
+    ], 
+    "cm_target_os_uoa": [
+      "d4c3a9e4a9a77677"
+    ], 
+    "run_target_processor_uoa": [
+      "e02d2e74de09570e"
+    ]
+  }, 
+  "cm_description": "", 
+  "cm_display_as_alias": "Generic Win32 MingW32", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-09-14T17:01:04.561000", 
+      "cm_module_uid": "b8a7418f9c701002", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }, 
+    {
+      "cm_iso_datetime": "2012-09-18T10:40:37.647000", 
+      "cm_module_uid": "b8a7418f9c701002", 
+      "cm_note": "", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "ctuning_scenario_uoa": "2c7c524133a03ece", 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

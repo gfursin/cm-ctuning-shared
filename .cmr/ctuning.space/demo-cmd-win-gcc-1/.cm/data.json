@@ -1,0 +1,1413 @@
+{
+  "cm_access_control": {
+    "comments_groups": "registered", 
+    "read_groups": "registered", 
+    "write_groups": "owner"
+  }, 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2013-12-21T21:17:33.151000", 
+      "cm_module_uid": "4f8fa3aea924fac7", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }, 
+    {
+      "cm_iso_datetime": "2013-12-21T21:17:56.615000", 
+      "cm_module_uid": "4f8fa3aea924fac7", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "number_of_explored_points": "2", 
+  "pipeline_module_uoa": "7bae354317a4151f", 
+  "points": [
+    {
+      "pipeline_input": {
+        "cm_action": "run", 
+        "cm_run_module_uoa": "7bae354317a4151f", 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "yes"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "base_flag": "-O3", 
+                "openmp_flag": "-fopenmp"
+              }, 
+              "external_flag_selection": "-O3", 
+              "use_only_base_flag": "yes", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "prepared_compiler_flags": ""
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": ""
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "os_string": "", 
+              "processor_string": "", 
+              "system_string": ""
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": ""
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "", 
+              "openme_library": "", 
+              "openme_library_ctuning_plugin": ""
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": ""
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "yes", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "1"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "benchmark_score": "", 
+              "exit_code": "", 
+              "global_execution_time_div_by_repeat": "", 
+              "number_of_kernel_repetitions": "", 
+              "run_time_by_module": ""
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {}
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "f5e564b47b6bbc10", 
+              "ctuning_compiler_plugins_code_uoa": "ac0736f7c3452db7", 
+              "milepost_compiler_code_uoa": "34496916583d5d47", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_output_redirect": "yes"
+            }, 
+            "output": {
+              "exit_code": "", 
+              "run_time_by_module": "", 
+              "target_file_size": ""
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "37a62874f4bda86b", 
+              "ctuning_accelerator_compiler_uoa": "456798195e1654d5", 
+              "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+              "ctuning_setup_uoa": "", 
+              "dataset_uoa": "167cee4e19bb3d7a", 
+              "host_os_uoa": "7a95e0754c37610a", 
+              "notes": "", 
+              "program_uoa": "b81ab31937d34de8", 
+              "prune_program_by_class": "dc6b904ae894e1cb", 
+              "run_cmd_key": "corners", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "d4c3a9e4a9a77677", 
+              "target_processor_uoa": "e02d2e74de09570e", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "7bdc3194bb7b7e34", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "system_state": {
+                "properties": {
+                  "cpu_frequency": ""
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_cpi": "", 
+            "global_instructions_retired": ""
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }, 
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "-1"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {}
+          }, 
+          "f53e1f0898493e87": {
+            "output": {
+              "global_dataset_name": "", 
+              "global_dataset_uid": "", 
+              "global_source_code_name": "", 
+              "global_source_code_uid": "", 
+              "program_uoa": ""
+            }
+          }, 
+          "keep_all_files": "yes", 
+          "misc": {
+            "cm_iso_datetime_finished": "", 
+            "cm_iso_datetime_started": "", 
+            "cm_user_uid": "", 
+            "dissemination": {
+              "publications": [
+                "983680d43b0b033d", 
+                "5606c08138624a1f"
+              ]
+            }
+          }
+        }
+      }, 
+      "pipeline_output": {
+        "cm_return": 0, 
+        "fail": false, 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "no"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "base_flag": "-O3", 
+                "openmp_flag": "-fopenmp"
+              }, 
+              "external_flag_selection": "-O3", 
+              "use_only_base_flag": "yes", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "all_flags_order": [], 
+              "prepared_compiler_flags": "-O3"
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": "0"
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "os_string": "", 
+              "processor_string": "", 
+              "system_string": ""
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": ""
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "", 
+              "openme_library": "", 
+              "openme_library_ctuning_plugin": ""
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "D:\\Work1\\CM\\cm-1.0\\repos\\default\\.cmr\\os.script\\build-generic\\cm_clean_universal.bat", 
+              "run_output_files": [
+                "a.exe"
+              ], 
+              "run_time_by_module": "0.028", 
+              "target_file": "a.exe", 
+              "work_dir": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\code.source\\benchmark-cbench-automotive-susan-demo"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": ""
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "yes", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_target_os_uoa": "d4c3a9e4a9a77677", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "442"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 1, 
+              "failed_run": "yes", 
+              "global_execution_time_div_by_repeat": "0.0124095022624", 
+              "number_of_kernel_repetitions": "442", 
+              "run_cmd": " a.exe D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\dataset\\image-pgm-0001-demo\\data.pgm tmp-output.tmp -c 1>tmp-output1.tmp 2>tmp-output2.tmp", 
+              "run_output_files": "yes", 
+              "run_time_by_module": "5.485", 
+              "work_dir": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\code.source\\benchmark-cbench-automotive-susan-demo"
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "md5sum": "873846b1690acc551ec8e8dc34bda626"
+            }
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "f5e564b47b6bbc10", 
+              "ctuning_compiler_plugins_code_uoa": "ac0736f7c3452db7", 
+              "milepost_compiler_code_uoa": "34496916583d5d47", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_output_redirect": "yes"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "D:\\Work1\\CM\\cm-1.0\\repos\\default\\.cmr\\os.script\\build-generic\\cm_build_dynamic_bin_c.bat", 
+              "run_output_files": [
+                "a.exe"
+              ], 
+              "run_time_by_module": "1.259", 
+              "target_file": "a.exe", 
+              "target_file_size": "54218", 
+              "work_dir": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\code.source\\benchmark-cbench-automotive-susan-demo"
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "37a62874f4bda86b", 
+              "ctuning_accelerator_compiler_uoa": "456798195e1654d5", 
+              "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+              "ctuning_setup_uoa": "", 
+              "dataset_uoa": "167cee4e19bb3d7a", 
+              "host_os_uoa": "7a95e0754c37610a", 
+              "notes": "", 
+              "program_uoa": "b81ab31937d34de8", 
+              "prune_program_by_class": "dc6b904ae894e1cb", 
+              "run_cmd_key": "corners", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "d4c3a9e4a9a77677", 
+              "target_processor_uoa": "e02d2e74de09570e", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "7bdc3194bb7b7e34", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "cm_return": 0, 
+              "system_state": {
+                "properties": {
+                  "unix": {
+                    "cpu_state": {}
+                  }
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_build_time_max": "2.331", 
+            "global_build_time_min": "1.259", 
+            "global_code_md5sum": "873846b1690acc551ec8e8dc34bda626", 
+            "global_code_size": "54218", 
+            "global_cpi": "", 
+            "global_instructions_retired": "", 
+            "global_run_kernel_time_max": "0.0127805429864", 
+            "global_run_kernel_time_min": "0.0124095022624", 
+            "kernel_repeat": "442"
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [
+                    "0.0127805429864", 
+                    "0.0124095022624"
+                  ], 
+                  "delta": "0.000371040724", 
+                  "delta_percent": "0.0299", 
+                  "max": "0.0127805429864", 
+                  "min": "0.0124095022624", 
+                  "nortest_cvm": {}, 
+                  "nortest_lillie": {}, 
+                  "nortest_pearson": {}, 
+                  "number": "2"
+                }, 
+                "run_time_by_module": {
+                  "all": [
+                    "5.649", 
+                    "5.485"
+                  ], 
+                  "delta": "0.164", 
+                  "delta_percent": "0.0299", 
+                  "max": "5.649", 
+                  "min": "5.485", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "2"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [
+                    "2.331", 
+                    "1.259"
+                  ], 
+                  "delta": "1.072", 
+                  "delta_percent": "0.8515", 
+                  "max": "2.331", 
+                  "min": "1.259", 
+                  "nortest_cvm": {}, 
+                  "nortest_lillie": {}, 
+                  "nortest_pearson": {}, 
+                  "number": "2"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {
+              "os_uoa": "d4c3a9e4a9a77677"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "run_time": {
+                "binary_name": "a.exe", 
+                "dataset_files": [
+                  "data.pgm"
+                ], 
+                "original_run_input_files": [], 
+                "run_cmd_main": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\dataset\\image-pgm-0001-demo\\data.pgm tmp-output.tmp -c", 
+                "run_cmd_out1": "tmp-output1.tmp", 
+                "run_cmd_out2": "tmp-output2.tmp", 
+                "run_correctness_output_files": [
+                  "tmp-output.tmp", 
+                  "tmp-output2.tmp"
+                ], 
+                "run_input_files": [
+                  "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\dataset\\image-pgm-0001-demo\\data.pgm"
+                ], 
+                "run_output_files": [
+                  "tmp-output.tmp"
+                ]
+              }
+            }
+          }, 
+          "f53e1f0898493e87": {
+            "input": {
+              "build_target_os_uoa": "d4c3a9e4a9a77677", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "37a62874f4bda86b", 
+              "ctuning_accelerator_compiler_uoa": "456798195e1654d5", 
+              "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+              "dataset_uoa": "167cee4e19bb3d7a", 
+              "keep_all_files": "yes", 
+              "run_cmd_key": "corners", 
+              "run_host_os_uoa": "7a95e0754c37610a", 
+              "run_target_os_uoa": "7a95e0754c37610a", 
+              "run_target_processor_uoa": "e02d2e74de09570e", 
+              "work_dir_data_uoa": "b81ab31937d34de8", 
+              "work_dir_module_uoa": "45741e3fbcf4024b", 
+              "work_dir_repo_uoa": "7bdc3194bb7b7e34"
+            }, 
+            "output": {
+              "global_compiler_desc_name": "GCC 4.7.x shorter opt list without GRAPHITE and without LTO", 
+              "global_compiler_package_name": "GCC 4.7.2 MingW 32bit with plugins", 
+              "global_dataset_name": "image pgm 0001 (demo)", 
+              "global_dataset_uid": "167cee4e19bb3d7a", 
+              "global_source_code_name": "cbench: automotive susan (demo)", 
+              "global_source_code_uid": "b81ab31937d34de8"
+            }
+          }, 
+          "keep_all_files": "yes", 
+          "misc": {
+            "cm_iso_datetime_finished": "2013-12-21T21:17:33.023000", 
+            "cm_iso_datetime_started": "2013-12-21T21:17:16.047000", 
+            "cm_user_uid": "0728a400aa1c86fe", 
+            "dissemination": {
+              "publications": [
+                "983680d43b0b033d", 
+                "5606c08138624a1f"
+              ]
+            }
+          }
+        }
+      }
+    }, 
+    {
+      "pipeline_input": {
+        "cm_action": "run", 
+        "cm_run_module_uoa": "7bae354317a4151f", 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "yes"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "base_flag": "-O3", 
+                "openmp_flag": "-fopenmp"
+              }, 
+              "external_flag_selection": "-O0", 
+              "use_only_base_flag": "yes", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "prepared_compiler_flags": ""
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": ""
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "os_string": "", 
+              "processor_string": "", 
+              "system_string": ""
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": ""
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "", 
+              "openme_library": "", 
+              "openme_library_ctuning_plugin": ""
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": ""
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "no", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "442"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "benchmark_score": "", 
+              "exit_code": "", 
+              "global_execution_time_div_by_repeat": "", 
+              "number_of_kernel_repetitions": "", 
+              "run_time_by_module": ""
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {}
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "f5e564b47b6bbc10", 
+              "ctuning_compiler_plugins_code_uoa": "ac0736f7c3452db7", 
+              "milepost_compiler_code_uoa": "34496916583d5d47", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_output_redirect": "yes"
+            }, 
+            "output": {
+              "exit_code": "", 
+              "run_time_by_module": "", 
+              "target_file_size": ""
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "37a62874f4bda86b", 
+              "ctuning_accelerator_compiler_uoa": "456798195e1654d5", 
+              "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+              "ctuning_setup_uoa": "", 
+              "dataset_uoa": "167cee4e19bb3d7a", 
+              "host_os_uoa": "7a95e0754c37610a", 
+              "notes": "", 
+              "program_uoa": "b81ab31937d34de8", 
+              "prune_program_by_class": "dc6b904ae894e1cb", 
+              "run_cmd_key": "corners", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "d4c3a9e4a9a77677", 
+              "target_processor_uoa": "e02d2e74de09570e", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "7bdc3194bb7b7e34", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "system_state": {
+                "properties": {
+                  "cpu_frequency": ""
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_cpi": "", 
+            "global_instructions_retired": ""
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }, 
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "-1"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {}
+          }, 
+          "f53e1f0898493e87": {
+            "output": {
+              "global_dataset_name": "", 
+              "global_dataset_uid": "", 
+              "global_source_code_name": "", 
+              "global_source_code_uid": "", 
+              "program_uoa": ""
+            }
+          }, 
+          "keep_all_files": "yes", 
+          "misc": {
+            "cm_iso_datetime_finished": "", 
+            "cm_iso_datetime_started": "", 
+            "cm_user_uid": "", 
+            "dissemination": {
+              "publications": [
+                "983680d43b0b033d", 
+                "5606c08138624a1f"
+              ]
+            }
+          }
+        }
+      }, 
+      "pipeline_output": {
+        "cm_return": 0, 
+        "fail": true, 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "yes"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "base_flag": "-O3", 
+                "openmp_flag": "-fopenmp"
+              }, 
+              "external_flag_selection": "-O0", 
+              "use_only_base_flag": "yes", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "all_flags_order": [], 
+              "prepared_compiler_flags": "-O0"
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": "1"
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "os_string": "", 
+              "processor_string": "", 
+              "system_string": ""
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": ""
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "", 
+              "openme_library": "", 
+              "openme_library_ctuning_plugin": ""
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "D:\\Work1\\CM\\cm-1.0\\repos\\default\\.cmr\\os.script\\build-generic\\cm_clean_universal.bat", 
+              "run_output_files": [
+                "a.exe"
+              ], 
+              "run_time_by_module": "0.026", 
+              "target_file": "a.exe", 
+              "work_dir": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\code.source\\benchmark-cbench-automotive-susan-demo"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": ""
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "no", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_target_os_uoa": "d4c3a9e4a9a77677", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "442"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 1, 
+              "failed_run": "yes", 
+              "global_execution_time_div_by_repeat": "0.0281832579186", 
+              "number_of_kernel_repetitions": "442", 
+              "run_cmd": " a.exe D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\dataset\\image-pgm-0001-demo\\data.pgm tmp-output.tmp -c 1>tmp-output1.tmp 2>tmp-output2.tmp", 
+              "run_output_files": "yes", 
+              "run_time_by_module": "12.457", 
+              "work_dir": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\code.source\\benchmark-cbench-automotive-susan-demo"
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "md5sum": "6ea87fae8d28a563830d06c6f64a9d16"
+            }
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "f5e564b47b6bbc10", 
+              "ctuning_compiler_plugins_code_uoa": "ac0736f7c3452db7", 
+              "milepost_compiler_code_uoa": "34496916583d5d47", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_output_redirect": "yes"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "D:\\Work1\\CM\\cm-1.0\\repos\\default\\.cmr\\os.script\\build-generic\\cm_build_dynamic_bin_c.bat", 
+              "run_output_files": [
+                "a.exe"
+              ], 
+              "run_time_by_module": "0.428", 
+              "target_file": "a.exe", 
+              "target_file_size": "61523", 
+              "work_dir": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\code.source\\benchmark-cbench-automotive-susan-demo"
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "37a62874f4bda86b", 
+              "ctuning_accelerator_compiler_uoa": "456798195e1654d5", 
+              "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+              "ctuning_setup_uoa": "", 
+              "dataset_uoa": "167cee4e19bb3d7a", 
+              "host_os_uoa": "7a95e0754c37610a", 
+              "notes": "", 
+              "program_uoa": "b81ab31937d34de8", 
+              "prune_program_by_class": "dc6b904ae894e1cb", 
+              "run_cmd_key": "corners", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "d4c3a9e4a9a77677", 
+              "target_processor_uoa": "e02d2e74de09570e", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "7bdc3194bb7b7e34", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "cm_return": 0, 
+              "system_state": {
+                "properties": {
+                  "unix": {
+                    "cpu_state": {}
+                  }
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_build_time_max": "0.428", 
+            "global_build_time_min": "0.428", 
+            "global_code_md5sum": "6ea87fae8d28a563830d06c6f64a9d16", 
+            "global_code_size": "61523", 
+            "global_cpi": "", 
+            "global_instructions_retired": "", 
+            "global_run_kernel_time_max": "0.0281832579186", 
+            "global_run_kernel_time_min": "0.0281832579186", 
+            "kernel_repeat": "442"
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }, 
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "-1"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {
+              "os_uoa": "d4c3a9e4a9a77677"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "run_time": {
+                "binary_name": "a.exe", 
+                "dataset_files": [
+                  "data.pgm"
+                ], 
+                "original_run_input_files": [], 
+                "run_cmd_main": "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\dataset\\image-pgm-0001-demo\\data.pgm tmp-output.tmp -c", 
+                "run_cmd_out1": "tmp-output1.tmp", 
+                "run_cmd_out2": "tmp-output2.tmp", 
+                "run_correctness_output_files": [
+                  "tmp-output.tmp", 
+                  "tmp-output2.tmp"
+                ], 
+                "run_input_files": [
+                  "D:\\Work1\\CM\\cm-1.0\\repos\\ctuning-shared\\.cmr\\dataset\\image-pgm-0001-demo\\data.pgm"
+                ], 
+                "run_output_files": [
+                  "tmp-output.tmp"
+                ]
+              }
+            }
+          }, 
+          "f53e1f0898493e87": {
+            "input": {
+              "build_target_os_uoa": "d4c3a9e4a9a77677", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "37a62874f4bda86b", 
+              "ctuning_accelerator_compiler_uoa": "456798195e1654d5", 
+              "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+              "dataset_uoa": "167cee4e19bb3d7a", 
+              "keep_all_files": "yes", 
+              "run_cmd_key": "corners", 
+              "run_host_os_uoa": "7a95e0754c37610a", 
+              "run_target_os_uoa": "7a95e0754c37610a", 
+              "run_target_processor_uoa": "e02d2e74de09570e", 
+              "work_dir_data_uoa": "b81ab31937d34de8", 
+              "work_dir_module_uoa": "45741e3fbcf4024b", 
+              "work_dir_repo_uoa": "7bdc3194bb7b7e34"
+            }, 
+            "output": {
+              "global_compiler_desc_name": "GCC 4.7.x shorter opt list without GRAPHITE and without LTO", 
+              "global_compiler_package_name": "GCC 4.7.2 MingW 32bit with plugins", 
+              "global_dataset_name": "image pgm 0001 (demo)", 
+              "global_dataset_uid": "167cee4e19bb3d7a", 
+              "global_source_code_name": "cbench: automotive susan (demo)", 
+              "global_source_code_uid": "b81ab31937d34de8"
+            }
+          }, 
+          "keep_all_files": "yes", 
+          "misc": {
+            "cm_iso_datetime_finished": "", 
+            "cm_iso_datetime_started": "2013-12-21T21:17:33.183000", 
+            "cm_user_uid": "0728a400aa1c86fe", 
+            "dissemination": {
+              "publications": [
+                "983680d43b0b033d", 
+                "5606c08138624a1f"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.2318.beta"
+  }, 
+  "summary_point": {
+    "compilation_type": "dynamic", 
+    "compiler_package_uoa": "0a6b14e6e9e226b7", 
+    "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+    "dataset_uoa": "167cee4e19bb3d7a", 
+    "host_os_uoa": "7a95e0754c37610a", 
+    "notes": "", 
+    "program_uoa": "b81ab31937d34de8", 
+    "run_cmd_key": "corners", 
+    "target_os_uoa": "d4c3a9e4a9a77677", 
+    "target_processor_uoa": "e02d2e74de09570e", 
+    "tuning_objective": "et"
+  }, 
+  "summary_point_relaxed": {
+    "compilation_type": "dynamic", 
+    "compiler_package_uoa": "0a6b14e6e9e226b7", 
+    "ctuning_compiler_uoa": "900eaefa485ba6ee", 
+    "dataset_uoa": "167cee4e19bb3d7a", 
+    "host_os_uoa": "7a95e0754c37610a", 
+    "notes": "", 
+    "program_uoa": "b81ab31937d34de8", 
+    "run_cmd_key": "corners", 
+    "target_os_uoa": "d4c3a9e4a9a77677", 
+    "target_processor_uoa": "e02d2e74de09570e", 
+    "tuning_objective": "et", 
+    "user_friendly_system_name": ""
+  }
+}

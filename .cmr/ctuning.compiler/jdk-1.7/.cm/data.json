@@ -1,0 +1,24 @@
+{
+  "all_compiler_flags_desc": {}, 
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "72f81bd39f84ed89", 
+    "433b6a58dec56e0b", 
+    "a083d9fa97514603"
+  ], 
+  "cm_display_as_alias": "JDK 1.7.x", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-29T04:27:51.681000", 
+      "cm_module_uid": "cff49b38f4c2395d"
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

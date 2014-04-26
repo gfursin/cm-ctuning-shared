@@ -1,0 +1,35 @@
+{
+  "all_compiler_flags_desc": {
+    "##base_flag": {
+      "choice": [
+        "-O3", 
+        "-Ofast", 
+        "-O2", 
+        "-O1", 
+        "-Os"
+      ], 
+      "default_value": "-O3", 
+      "desc_text": "base flag", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "10", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10000", 
+      "type": "text",
+      "forbid_disable_at_random":"yes"
+    }
+  }, 
+  "cm_access_control": {
+    "read": "all", 
+    "write": "auth"
+  }, 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-29T04:36:30.600000", 
+      "cm_module_uid": "cff49b38f4c2395d"
+    }
+  ] 
+}

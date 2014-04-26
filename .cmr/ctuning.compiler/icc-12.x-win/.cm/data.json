@@ -1,0 +1,91 @@
+{
+  "misc_ld_flags": {
+    "pthread_lib":"/pthread"
+  },
+  "all_compiler_flags_desc": {
+    "##base_flag": {
+      "choice": [
+        "/O1", 
+        "/O2", 
+        "/Os", 
+        "/Ot", 
+        "/Od", 
+        "/O3", 
+        "/fast"
+      ], 
+      "default_value": "/O3", 
+      "desc_text": "compiler flag: /O3", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "forbid_disable_at_random": "yes", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10000", 
+      "type": "text"
+    }, 
+    "##global_loop_unrolling": {
+      "default_value": "2", 
+      "desc_text": "compiler flag: /Qunroll", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_prefix": "/Qunroll", 
+      "explore_start": "1", 
+      "explore_step": "1", 
+      "explore_stop": "32", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "forbid_disable_at_random": "no", 
+      "only_for_exploration": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10100", 
+      "type": "integer"
+    }, 
+    "##openmp_flag": {
+      "choice": [
+        "/openmp", 
+        ""
+      ], 
+      "default_value": "", 
+      "desc_text": "compiler flag: openmp", 
+      "explorable": "no", 
+      "field_size": "10", 
+      "has_choice": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10001", 
+      "type": "text"
+    }
+  }, 
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "72f81bd39f84ed89", 
+    "b18acc9a098465ca", 
+    "5d8b43247a692746"
+  ], 
+  "cm_description": "", 
+  "cm_display_as_alias": "ICC 12.x for Windows", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-25T16:23:55.969000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_note": "", 
+      "cm_user_uoa": "74c2480dcec9e85d"
+    }, 
+    {
+      "cm_iso_datetime": "2012-11-21T00:19:28.119000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

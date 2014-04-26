@@ -1,0 +1,28 @@
+--- likwid-3.0/src/libperfctr.c.old	2012-11-29 18:18:45.000000000 +0100
++++ likwid-3.0/src/libperfctr.c	2013-07-03 17:49:11.682581779 +0200
+@@ -306,8 +306,8 @@
+                     if ((socket_lock[affinity_core2node_lookup[cpu_id]] == cpu_id) ||
+                             lock_acquire((int*) &socket_lock[affinity_core2node_lookup[cpu_id]], cpu_id))
+                     {
+-                        results->StartPMcounters[7] = (double) power_tread(socket_fd, cpu_id, MSR_PKG_ENERGY_STATUS);
+-                        results->StartPMcounters[10] = (double) power_tread(socket_fd, cpu_id, MSR_DRAM_ENERGY_STATUS);
++//                        results->StartPMcounters[7] = (double) power_tread(socket_fd, cpu_id, MSR_PKG_ENERGY_STATUS);
++//                        results->StartPMcounters[10] = (double) power_tread(socket_fd, cpu_id, MSR_DRAM_ENERGY_STATUS);
+ 
+ #ifdef SNB_UNCORE
+                         if (accessClient_mode != DAEMON_AM_DIRECT)
+@@ -493,10 +493,10 @@
+ 
+                     if ((socket_lock[affinity_core2node_lookup[cpu_id]] == cpu_id))
+                     {
+-                        results->PMcounters[7] += power_info.energyUnit *
+-                            ( power_tread(socket_fd, cpu_id, MSR_PKG_ENERGY_STATUS) - results->StartPMcounters[7]);
+-                        results->PMcounters[10] += power_info.energyUnit *
+-                            ( power_tread(socket_fd, cpu_id, MSR_DRAM_ENERGY_STATUS) - results->StartPMcounters[10]);
++//                        results->PMcounters[7] += power_info.energyUnit *
++//                            ( power_tread(socket_fd, cpu_id, MSR_PKG_ENERGY_STATUS) - results->StartPMcounters[7]);
++//                        results->PMcounters[10] += power_info.energyUnit *
++//                            ( power_tread(socket_fd, cpu_id, MSR_DRAM_ENERGY_STATUS) - results->StartPMcounters[10]);
+ 
+ #ifdef SNB_UNCORE
+                         if (accessClient_mode != DAEMON_AM_DIRECT)

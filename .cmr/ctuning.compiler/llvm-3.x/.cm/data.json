@@ -1,0 +1,745 @@
+{
+  "misc_ld_flags": {
+    "pthread_lib":"-lpthread"
+  },
+  "all_compiler_flags_desc": {
+    "##04aaa89667507dab": {
+      "choice": [
+        "-tbaa"
+      ], 
+      "default_value": "-tbaa", 
+      "desc_text": "compiler flag: -tbaa", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10950", 
+      "type": "text"
+    }, 
+    "##0ccd2ebaa42fab88": {
+      "choice": [
+        "-instcombine"
+      ], 
+      "default_value": "-instcombine", 
+      "desc_text": "compiler flag: -instcombine", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10370", 
+      "type": "text"
+    }, 
+    "##1594a294d367c405": {
+      "choice": [
+        "-partial-inliner"
+      ], 
+      "default_value": "-partial-inliner", 
+      "desc_text": "compiler flag: -partial-inliner", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10720", 
+      "type": "text"
+    }, 
+    "##17e0bee252d4853b": {
+      "choice": [
+        "-argpromotion"
+      ], 
+      "default_value": "-argpromotion", 
+      "desc_text": "compiler flag: -argpromotion", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10090", 
+      "type": "text"
+    }, 
+    "##18e4407ca168f4a7": {
+      "choice": [
+        "-inline"
+      ], 
+      "default_value": "-inline", 
+      "desc_text": "compiler flag: -inline", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10360", 
+      "type": "text"
+    }, 
+    "##1d7d6eda947dcbbb": {
+      "choice": [
+        "-always-inline"
+      ], 
+      "default_value": "-always-inline", 
+      "desc_text": "compiler flag: -always-inline", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10080", 
+      "type": "text"
+    }, 
+    "##1e04324963dc90a3": {
+      "choice": [
+        "-lint"
+      ], 
+      "default_value": "-lint", 
+      "desc_text": "compiler flag: -lint", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10510", 
+      "type": "text"
+    }, 
+    "##24284b4afa70b5f2": {
+      "choice": [
+        "-licm"
+      ], 
+      "default_value": "-licm", 
+      "desc_text": "compiler flag: -licm", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10500", 
+      "type": "text"
+    }, 
+    "##2ca158ddfd4d6cb7": {
+      "choice": [
+        "-disable-inlining"
+      ], 
+      "default_value": "-disable-inlining", 
+      "desc_text": "compiler flag: -disable-inlining", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10010", 
+      "type": "text"
+    }, 
+    "##2d4fe043459f24da": {
+      "choice": [
+        "-scalarrepl-ssa"
+      ], 
+      "default_value": "-scalarrepl-ssa", 
+      "desc_text": "compiler flag: -scalarrepl-ssa", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10810", 
+      "type": "text"
+    }, 
+    "##341249d4a4d14d39": {
+      "choice": [
+        "-loop-instsimplify"
+      ], 
+      "default_value": "-loop-instsimplify", 
+      "desc_text": "compiler flag: -loop-instsimplify", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10560", 
+      "type": "text"
+    }, 
+    "##34a9596d1a6d6dd7": {
+      "choice": [
+        "-early-cse"
+      ], 
+      "default_value": "-early-cse", 
+      "desc_text": "compiler flag: -early-cse", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10290", 
+      "type": "text"
+    }, 
+    "##4054f5a9986746e6": {
+      "choice": [
+        "-loop-reduce"
+      ], 
+      "default_value": "-loop-reduce", 
+      "desc_text": "compiler flag: -loop-reduce", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10570", 
+      "type": "text"
+    }, 
+    "##456683881c214621": {
+      "choice": [
+        "-sccp"
+      ], 
+      "default_value": "-sccp", 
+      "desc_text": "compiler flag: -sccp", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10820", 
+      "type": "text"
+    }, 
+    "##45f4041e983c4e8c": {
+      "choice": [
+        "-ipconstprop"
+      ], 
+      "default_value": "-ipconstprop", 
+      "desc_text": "compiler flag: -ipconstprop", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10430", 
+      "type": "text"
+    }, 
+    "##4677b37428bace6a": {
+      "choice": [
+        "-domfrontier"
+      ], 
+      "default_value": "-domfrontier", 
+      "desc_text": "compiler flag: -domfrontier", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10260", 
+      "type": "text"
+    }, 
+    "##4b77a2d72e9db437": {
+      "choice": [
+        "-loop-extract-single"
+      ], 
+      "default_value": "-loop-extract-single", 
+      "desc_text": "compiler flag: -loop-extract-single", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10540", 
+      "type": "text"
+    }, 
+    "##51eede5a04584b13": {
+      "choice": [
+        "-scalar-evolution"
+      ], 
+      "default_value": "-scalar-evolution", 
+      "desc_text": "compiler flag: -scalar-evolution", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10790", 
+      "type": "text"
+    }, 
+    "##56841a9b0b4f5e80": {
+      "choice": [
+        "-loop-simplify"
+      ], 
+      "default_value": "-loop-simplify", 
+      "desc_text": "compiler flag: -loop-simplify", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10590", 
+      "type": "text"
+    }, 
+    "##6018d5c3ad3b632f": {
+      "choice": [
+        "-domtree"
+      ], 
+      "default_value": "-domtree", 
+      "desc_text": "compiler flag: -domtree", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10270", 
+      "type": "text"
+    }, 
+    "##6af3a2bf2927eb33": {
+      "choice": [
+        "-loop-rotate"
+      ], 
+      "default_value": "-loop-rotate", 
+      "desc_text": "compiler flag: -loop-rotate", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10580", 
+      "type": "text"
+    }, 
+    "##6de19feeb7ae4336": {
+      "choice": [
+        "-globalopt"
+      ], 
+      "default_value": "-globalopt", 
+      "desc_text": "compiler flag: -globalopt", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10320", 
+      "type": "text"
+    }, 
+    "##6e7d80e74433aac1": {
+      "choice": [
+        "-loop-unroll"
+      ], 
+      "default_value": "-loop-unroll", 
+      "desc_text": "compiler flag: -loop-unroll", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10600", 
+      "type": "text"
+    }, 
+    "##74742f1a03003d1d": {
+      "choice": [
+        "-loop-unswitch"
+      ], 
+      "default_value": "-loop-unswitch", 
+      "desc_text": "compiler flag: -loop-unswitch", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10610", 
+      "type": "text"
+    }, 
+    "##7da0db4a3371655f": {
+      "choice": [
+        "-instsimplify"
+      ], 
+      "default_value": "-instsimplify", 
+      "desc_text": "compiler flag: -instsimplify", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10400", 
+      "type": "text"
+    }, 
+    "##7da94519bcd44af3": {
+      "choice": [
+        "-constprop"
+      ], 
+      "default_value": "-constprop", 
+      "desc_text": "compiler flag: -constprop", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10200", 
+      "type": "text"
+    }, 
+    "##8c14247b50dfd3c6": {
+      "choice": [
+        "-globaldce"
+      ], 
+      "default_value": "-globaldce", 
+      "desc_text": "compiler flag: -globaldce", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10310", 
+      "type": "text"
+    }, 
+    "##96042d5addda6c7b": {
+      "choice": [
+        "-branch-prob"
+      ], 
+      "default_value": "-branch-prob", 
+      "desc_text": "compiler flag: -branch-prob", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10160", 
+      "type": "text"
+    }, 
+    "##9940221284bb48c2": {
+      "choice": [
+        "-dse"
+      ], 
+      "default_value": "-dse", 
+      "desc_text": "compiler flag: -dse", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10280", 
+      "type": "text"
+    }, 
+    "##a0b8376cb3eec443": {
+      "choice": [
+        "-reg2mem"
+      ], 
+      "default_value": "-reg2mem", 
+      "desc_text": "compiler flag: -reg2mem", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10770", 
+      "type": "text"
+    }, 
+    "##a925ee1fd134a9f5": {
+      "choice": [
+        "-scalarrepl"
+      ], 
+      "default_value": "-scalarrepl", 
+      "desc_text": "compiler flag: -scalarrepl", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10800", 
+      "type": "text"
+    }, 
+    "##b53f87e3f488d845": {
+      "choice": [
+        "-strip"
+      ], 
+      "default_value": "-strip", 
+      "desc_text": "compiler flag: -strip", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10870", 
+      "type": "text"
+    }, 
+    "##base_flag": {
+      "choice": [
+        " ", 
+        "-O1", 
+        "-O2", 
+        "-O3"
+      ], 
+      "default_value": "-O3", 
+      "desc_text": "compiler flag: base", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "forbid_disable_at_random": "yes", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10000", 
+      "type": "text"
+    }, 
+    "##bdb1b04e949b4773": {
+      "choice": [
+        "-bb-vectorize"
+      ], 
+      "default_value": "-bb-vectorize", 
+      "desc_text": "compiler flag: -bb-vectorize", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10130", 
+      "type": "text"
+    }, 
+    "##be984f463e9b0f3e": {
+      "choice": [
+        "-mem2reg"
+      ], 
+      "default_value": "-mem2reg", 
+      "desc_text": "compiler flag: -mem2reg", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10660", 
+      "type": "text"
+    }, 
+    "##c129b7ca640c6850": {
+      "choice": [
+        "-memcpyopt"
+      ], 
+      "default_value": "-memcpyopt", 
+      "desc_text": "compiler flag: -memcpyopt", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10670", 
+      "type": "text"
+    }, 
+    "##c37bb4925abec4f6": {
+      "choice": [
+        "-loop-deletion"
+      ], 
+      "default_value": "-loop-deletion", 
+      "desc_text": "compiler flag: -loop-deletion", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10520", 
+      "type": "text"
+    }, 
+    "##c436b4d4b499ebc9": {
+      "choice": [
+        "-vectorize"
+      ], 
+      "default_value": "-vectorize", 
+      "desc_text": "compiler flag: -vectorize", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10960", 
+      "type": "text"
+    }, 
+    "##cd8b1829eaad7118": {
+      "choice": [
+        "-simplifycfg"
+      ], 
+      "default_value": "-simplifycfg", 
+      "desc_text": "compiler flag: -simplifycfg", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10850", 
+      "type": "text"
+    }, 
+    "##da14c8fa1fd5c651": {
+      "choice": [
+        "-sink"
+      ], 
+      "default_value": "-sink", 
+      "desc_text": "compiler flag: -sink", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10860", 
+      "type": "text"
+    }, 
+    "##e91b431f308de9f1": {
+      "choice": [
+        "-dce"
+      ], 
+      "default_value": "-dce", 
+      "desc_text": "compiler flag: -dce", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10230", 
+      "type": "text"
+    }, 
+    "##eb43d9b4a183c3d1": {
+      "choice": [
+        "-lcssa"
+      ], 
+      "default_value": "-lcssa", 
+      "desc_text": "compiler flag: -lcssa", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10470", 
+      "type": "text"
+    }, 
+    "##faabe57ba20dec8d": {
+      "choice": [
+        "-disable-simplify-libcalls"
+      ], 
+      "default_value": "-disable-simplify-libcalls", 
+      "desc_text": "compiler flag: -disable-simplify-libcalls", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10020", 
+      "type": "text"
+    }, 
+    "##fe428d847376fe87": {
+      "choice": [
+        "-adce"
+      ], 
+      "default_value": "-adce", 
+      "desc_text": "compiler flag: -adce", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "disabled", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10070", 
+      "type": "text"
+    }
+  }, 
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "72f81bd39f84ed89", 
+    "4720bab77a4160ee", 
+    "394aba9de393576d"
+  ], 
+  "cm_description": "", 
+  "cm_display_as_alias": "LLVM 3.x", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-29T04:51:42.270000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_note": "", 
+      "cm_user_uoa": "74c2480dcec9e85d"
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }, 
+  "profile": {
+    "files": [
+      "gmon.out"
+    ], 
+    "flag": "-pg"
+  }
+}

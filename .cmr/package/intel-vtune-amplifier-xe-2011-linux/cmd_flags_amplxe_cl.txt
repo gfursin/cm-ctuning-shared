@@ -1,0 +1,24 @@
+Intel(R) VTune(TM) Amplifier XE 2011 Update 5 (build 186533) Command Line Tool
+Copyright (C) 2009-2011 Intel Corporation. All rights reserved.
+
+ 
+ Usage: amplxe-cl <-action> [-action-option] [-global-option] [-modifier-option] [[--] target
+[target options]]
+ 
+ To view the results in the IDE, double-click the <resultname>.amplxe
+ file located in the result directory.
+ 
+ Type amplxe-cl -help <action>' for help on a specific action.
+ 
+ Available actions:
+
+ 
+    collect
+    collect-with
+    command
+    finalize
+    help
+    import
+    report
+    version
+

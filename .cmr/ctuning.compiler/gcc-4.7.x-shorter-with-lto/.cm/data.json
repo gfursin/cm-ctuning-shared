@@ -1,0 +1,32 @@
+{
+  "cm_access_control": {
+    "comments_groups": "registered", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [], 
+  "cm_dependencies": {
+    "classes": []
+  }, 
+  "cm_display_as_alias": "GCC 4.7.x shorter opt list with LTO", 
+  "cm_dissemination": {}, 
+  "cm_properties": {}, 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2013-04-22T23:24:15.010000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }, 
+    {
+      "cm_iso_datetime": "2013-05-01T10:24:45.787000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.2015.beta"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "all_compiler_flags_desc": {
+    "##0454456ae76e9963": {
+      "choice": [
+        "-codegenprepare"
+      ], 
+      "default_value": "-codegenprepare", 
+      "desc_text": "compiler flag: -codegenprepare", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10180", 
+      "type": "text"
+    }, 
+    "##04aaa89667507dab": {
+      "choice": [
+        "-tbaa"
+      ], 
+      "default_value": "-tbaa", 
+      "desc_text": "compiler flag: -tbaa", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10950", 
+      "type": "text"
+    }, 
+    "##0ccd2ebaa42fab88": {
+      "choice": [
+        "-instcombine"
+      ], 
+      "default_value": "-instcombine", 
+      "desc_text": "compiler flag: -instcombine", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10370", 
+      "type": "text"
+    }, 
+    "##1004eb09e83c74ab": {
+      "choice": [
+        "-postdomtree"
+      ], 
+      "default_value": "-postdomtree", 
+      "desc_text": "compiler flag: -postdomtree", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10730", 
+      "type": "text"
+    }, 
+    "##1594a294d367c405": {
+      "choice": [
+        "-partial-inliner"
+      ], 
+      "default_value": "-partial-inliner", 
+      "desc_text": "compiler flag: -partial-inliner", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10720", 
+      "type": "text"
+    }
+  }, 
+  "cm_access_control": {
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "72f81bd39f84ed89", 
+    "4720bab77a4160ee", 
+    "394aba9de393576d"
+  ], 
+  "cm_description": "", 
+  "cm_display_as_alias": "LLVM 3.x", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-29T04:51:42.270000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_note": "", 
+      "cm_user_uoa": "74c2480dcec9e85d"
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

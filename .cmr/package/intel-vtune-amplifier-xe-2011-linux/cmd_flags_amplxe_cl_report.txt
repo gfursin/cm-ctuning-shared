@@ -1,0 +1,85 @@
+Intel(R) VTune(TM) Amplifier XE 2011 Update 5 (build 186533) Command Line Tool
+Copyright (C) 2009-2011 Intel Corporation. All rights reserved.
+
+-R, -report=<string>          Generate a report with the specified name.
+
+
+ Display data 
+
+
+Modifiers
+ 
+-call-stack-mode=all | user-only | user-plus-one (user-only)
+                              Choose how to show system functions in the stack.
+-csv-delimiter=<string>       Specify delimiter character for CSV output.
+                              Possible values are any character or the words:
+                              comma, semicolon, colon, or tab.
+-cumulative-threshold-percent=<string>
+                              Show top percent of data output.
+-discard-raw-data | -no-discard-raw-data (default)
+                              Discard raw collector data from the result upon
+                              finalization.
+-filter=<string>              Specify items to include or exclude as follows:
+                              <column name> [= | !=] <value>
+-format=text | csv            Specify output format for report.
+-group-by=<string>            Specify a grouping level for displaying results. 
+                              Default value is function. Use -help report
+                              <report name> to get a list of available
+                              groupings.
+-limit=<integer>              Show top number of items in output.
+-report-output=<string>       Write report output to a file.
+-r, -result-dir=<string> (r@@@{at})
+                              Specify result directory path.
+-search-dir=<string>          <all | bin | src | sym[:<p | r>]>=<directory>.
+                              <directory> is the name of the search directory
+                              for binaries (bin), sources (src), symbols (sym),
+                              or all these file types (all). Use ':r' to
+                              perform a recursive search of all subdirectories.
+                              Use ':p' to indicate highest priority search
+                              directories (directories that should be searched 
+                              prior to others, including environment paths and 
+                              absolute paths). You can use these options
+                              together as ':rp'.
+
+
+
+Global Options
+ 
+-q, -quiet                    Suppress non-essential messages
+-user-data-dir=<string>       Specify the base directory for result paths
+                              provided by --result-dir option. By default, the 
+                              current working directory is used.
+-v, -verbose                  Print additional information
+
+
+
+Examples
+ 
+Generate the 'hotspots' report for the result directory 'r000hs'.
+ 
+    amplxe-cl -report hotspots -r r000hs
+ 
+ Group the data by module.
+ 
+    amplxe-cl -report hotspots -r r000hs -group-by module
+ 
+ Filter the output.
+ 
+    amplxe-cl -report hotspots -r r000hs -filter module=libexample.so
+ 
+ 
+ Use '-help report <report name>' for more information about each report. 
+
+Available reports
+ 
+    callstacks   Display CPU or wait time for callstacks.
+    gprof-cc     Display CPU or wait time in the gprof-like format.
+    hotspots     Display CPU time.
+    hw-events    Display hardware events.
+    perf         Display CPU or wait time for each module.
+    perf-detail  Display CPU time for each function or synchronization object.
+    pmu-events   
+    sfdump       Specialized report to display hardware events.
+    summary      Display data about overall performance.
+    top-down     Display a call tree for your target application and provide CPU and wait time for each function.
+    wait-time    Display wait time.

@@ -1,0 +1,50 @@
+{
+  "add_to_code_entry": {
+    "build_params": {
+      "compiler_var_prefix": "-D", 
+      "include_prefix": "-I"
+    }, 
+    "ctuning_compiler_uoa": "42eab7eefa890ddc", 
+    "objdump": "objdump -d", 
+    "profiler": "gprof"
+  }, 
+  "build": "no", 
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "72f81bd39f84ed89", 
+    "b18acc9a098465ca", 
+    "5d8b43247a692746"
+  ], 
+  "cm_dependencies": {
+    "host_os": [
+      "41f3fd82b4b0fa51"
+    ], 
+    "target_os": [
+      "41f3fd82b4b0fa51"
+    ], 
+    "target_processor": [
+      "7c20bc4554ebb9de"
+    ]
+  }, 
+  "cm_description": "", 
+  "cm_display_as_alias": "Intel Composer XE 2011 SP1 Update1 for Linux MIC", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-20T08:10:35.895000", 
+      "cm_module_uid": "0247b19de472d7d0", 
+      "cm_note": "", 
+      "cm_user_uoa": "74c2480dcec9e85d"
+    }
+  ], 
+  "install_script": "install", 
+  "license": "Intel Academic License", 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }, 
+  "url": "http://software.intel.com/en-us/articles/intel-parallel-studio-xe"
+}

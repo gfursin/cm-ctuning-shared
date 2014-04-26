@@ -1,0 +1,18 @@
+Executing icl /Qstd=c99 /MD /DWINDOWS /GS-  /ID:\Work1\CM\cm-repos\ctuning-setup\.cmr\code\65cbb74946919aab\include /DPOLYBENCH_PADDING_FACTOR=0 /DN=4054 /DDATA_TYPE=double /DPOLYBENCH_DUMP_ARRAYS=YES  /fast     ludcmp.c polybench.c /Fea.exe  D:\Work1\CM\cm-repos\ctuning-setup\.cmr\code\65cbb74946919aab\lib\libcm-ce4e448e64ca58b5.lib  /link /NODEFAULTLIB:LIBCMT 
+ludcmp.c
+ludcmp.c(85): warning #161: unrecognized #pragma
+  #pragma scop
+          ^
+
+ludcmp.c(120): warning #161: unrecognized #pragma
+  #pragma endscop
+          ^
+
+polybench.c
+Microsoft (R) Incremental Linker Version 9.00.21022.08
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-out:a.exe 
+/NODEFAULTLIB:LIBCMT 
+d:\Temp\ipo_25416.obj 
+D:\Work1\CM\cm-repos\ctuning-setup\.cmr\code\65cbb74946919aab\lib\libcm-ce4e448e64ca58b5.lib 

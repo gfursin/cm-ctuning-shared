@@ -1,0 +1,25 @@
+{
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_description": "", 
+  "cm_display_as_alias": "code-dominated-by-arithmetic", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-03-30T17:47:08.983000", 
+      "cm_module_uid": "c4f25bdc9d938143", 
+      "cm_note": "", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "possible_detection": " Use \"Alchemist\" tool to remove all load/stores or scalarize array accesses. \nIt can break semantics, but quickly shows CPU/memory ratios. \n* Change processor frequency and observe change in execution time. \nIf it is linear, very likely the code is dominated by arithmetic.\n", 
+  "possible_effect": "If compiler or processor are not good enough, possible degradation in execution time and power consumption.\n", 
+  "possible_problem": "Arithmetic dominates. Code is not balanced though not necessarily a problem.", 
+  "possible_solution": "* Focus on ILP optimizations (unrolling) or parallelization.\n* Run on complex out-of-order core (GPU)\n* Change processor frequency to balance execution time vs. power consumption.\n", 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

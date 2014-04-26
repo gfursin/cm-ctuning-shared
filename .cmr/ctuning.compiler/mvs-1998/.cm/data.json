@@ -1,0 +1,63 @@
+{
+  "##openmp_flag": {
+    "choice": [
+      "/openmp", 
+      ""
+    ], 
+    "default_value": "", 
+    "desc_text": "compiler flag: openmp", 
+    "explorable": "no", 
+    "field_size": "10", 
+    "has_choice": "yes", 
+    "skip_form_refresh": "yes", 
+    "sort_index": "10001", 
+    "type": "text"
+  }, 
+  "all_compiler_flags_desc": {
+    "##base_flag": {
+      "choice": [
+        "/O1", 
+        "/O2", 
+        "/Os", 
+        "/Ot", 
+        "/Od"
+      ], 
+      "default_value": "/Ot", 
+      "desc_text": "compiler flag: /Ot", 
+      "explorable": "yes", 
+      "explore_level": "1", 
+      "explore_type": "fixed", 
+      "field_size": "7", 
+      "forbid_disable_at_random": "yes", 
+      "has_choice": "yes", 
+      "no_sorting": "yes", 
+      "skip_form_refresh": "yes", 
+      "sort_index": "10000", 
+      "type": "text"
+    }
+  }, 
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_classes_uoa": [
+    "72f81bd39f84ed89", 
+    "4720bab77a4160ee", 
+    "394aba9de393576d"
+  ], 
+  "cm_description": "", 
+  "cm_display_as_alias": "Microsoft Visual Studio compilers 1998", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-07-29T04:51:42.270000", 
+      "cm_module_uid": "cff49b38f4c2395d", 
+      "cm_note": "", 
+      "cm_user_uoa": "74c2480dcec9e85d"
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}

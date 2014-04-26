@@ -1,0 +1,25 @@
+{
+  "cm_access_control": {
+    "comments_groups": "admin", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_description": "", 
+  "cm_display_as_alias": "cache-conflict-misses", 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2012-03-30T17:30:00.096000", 
+      "cm_module_uid": "c4f25bdc9d938143", 
+      "cm_note": "", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "possible_detection": "* Use \"Alchemist\" tool to remove all load/stores or scalarize array accesses. \nIt can break semantics, but quickly shows CPU/memory ratios. \n* Change processor frequency and observe change in execution time. \nIf it's not linear, very likely the code is memory bound.\n", 
+  "possible_effect": "degradation in execution time", 
+  "possible_problem": "cache conflict misses", 
+  "possible_solution": "* Pad array A[i,j] -> A[i+pad1, j+pad2] can reduce conflict misses\n* Reduce processor frequency to save power\n", 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.1977.beta"
+  }
+}
