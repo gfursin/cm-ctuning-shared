@@ -1,0 +1,11 @@
+{
+  "data_uid": "435cab9d1aa5e24a", 
+  "data_name": "cTuning shared", 
+  "dict": {
+    "url": "https://github.com/gfursin/cm-ctuning-shared.git", 
+    "shared": "git", 
+    "sync": "yes"
+  }, 
+  "data_alias": "ctuning-shared", 
+  "data_uoa": "ctuning-shared"
+}
